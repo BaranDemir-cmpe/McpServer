@@ -31,6 +31,7 @@ Create an `appsettings.json` file:
     "DefaultConnection": "Server=YOUR_SERVER;Database=MovieDb;Trusted_Connection=true;TrustServerCertificate=true;"
   }
 }
+```
 
 ## Claude Desktop
 After publishing the project, add the executable to your Claude Desktop MCP configuration:
@@ -43,6 +44,7 @@ After publishing the project, add the executable to your Claude Desktop MCP conf
       }
     }
   }
+```
 
 Restart Claude Desktop after updating the configuration.
 
