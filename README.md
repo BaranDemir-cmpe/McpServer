@@ -25,14 +25,16 @@ It allows MCP-compatible clients such as Claude Desktop to search a movie databa
 
 Create an `appsettings.json` file:
 
-  {
-    "ConnectionStrings": {
-      "DefaultConnection": "Server=YOUR_SERVER;Database=MovieDb;Trusted_Connection=true;TrustServerCertificate=true;"
-    }
+```json
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=YOUR_SERVER;Database=MovieDb;Trusted_Connection=true;TrustServerCertificate=true;"
   }
+}
 
 ## Claude Desktop
 After publishing the project, add the executable to your Claude Desktop MCP configuration:
+```json
   {
     "mcpServers": {
       "movie-server": {
